@@ -10,15 +10,18 @@ Estou animada para compartilhar as descobertas desta análise e contribuir para 
 **Título do Projeto**
 Validação de hipóteses Spotify
 
+
 <details>
-<summary>**Objetivo**</summary>
+<summary><b>Objetivo</b></summary>
   
 O objetivo principal deste projeto foi aplicar testes estatísticos, como correlação, teste de significância e regressão linear, para validar ou refutar hipóteses relevantes. Essas análises visam fornecer descobertas valiosas para uma gravadora que busca entender o contexto da indústria musical para lançar um novo artista
 
 **Contexto**
 A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a chave para o triunfo reside na capacidade de tomar decisões estratégicas guiadas por dados.
 
-Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023 .
+Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
+</details>
+
 
 <details>
 <summary><b>Equipe</b></summary>
