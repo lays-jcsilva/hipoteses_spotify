@@ -20,13 +20,14 @@ A indústria musical faz parte de um ambiente que está em constante evolução 
 
 Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023 .
 
-
-
 <details>
-<summary>**Equipe**</summary>
+<summary><b>Equipe</b></summary>
 
 - Nicole Machado Corrêa
 - Lays Silva
 
 </details>
+
+
+
 
