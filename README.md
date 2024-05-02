@@ -1,4 +1,4 @@
-# hipoteses_spotify
+# 📊 🎧 Análise de dados para teste de hipoteses spotify
 
 Olá, seja bem-vindo(a) à análise de dados do Spotify!
 
