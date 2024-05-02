@@ -7,5 +7,5 @@ Neste projeto, mergulhamos em uma análise detalhada do conjunto de dados do Spo
 Estou animada para compartilhar as descobertas desta análise e contribuir para uma melhor compreensão do ecossistema musical do Spotify. Vamos explorar juntos as tendências e insights que moldam o sucesso das músicas na plataforma.
 
 
-##Título do Projeto
+**Título do Projeto**
 - Validação de hipóteses do Spotify
