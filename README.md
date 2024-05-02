@@ -10,15 +10,12 @@ Estou animada para compartilhar as descobertas desta análise e contribuir para 
 **Título do Projeto**
 - Validação de hipóteses do Spotify
 
-**Objetivo do Projeto**
 
-O objetivo deste projeto é:
-
-- Validar hipóteses sobre o sucesso de uma música no Spotify.
-- Extrair insights valiosos do conjunto de dados do Spotify.
-- Apresentar recomendações estratégicas com base nas descobertas da análise.
-
-**Equipe**
+<details>
+<summary>Equipe</summary>
 
 - Nicole Machado Corrêa
 - Lays Silva
+
+</details>
+
