@@ -10,6 +10,12 @@ Estou animada para compartilhar as descobertas desta análise e contribuir para 
 **Título do Projeto**
 - Validação de hipóteses do Spotify
 
+<details>
+<summary>Objetivo</summary>
+O objetivo principal deste projeto foi aplicar testes estatísticos, como correlação, teste de significância e regressão linear, para validar ou refutar hipóteses relevantes. Essas análises visam fornecer descobertas valiosas para uma gravadora que busca entender o contexto da indústria musical para lançar um novo artista
+
+
+
 
 <details>
 <summary>Equipe</summary>
