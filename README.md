@@ -27,8 +27,7 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 <details>
 <summary><b>Equipe</b></summary>
 
-- Nicole Machado Corrêa
-- Lays Silva
+  Lays Silva e Nicole Machado Corrêa
 
 </details>
 
