@@ -8,4 +8,4 @@ Estou animada para compartilhar as descobertas desta análise e contribuir para 
 
 
 ##Título do Projeto
-Validação de hipóteses do Spotify
+- Validação de hipóteses do Spotify
