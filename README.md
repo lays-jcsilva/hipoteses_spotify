@@ -46,10 +46,15 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 
 </details>
 
+<details>
+<summary><b>Processamento de dados</b></summary>
+
+<details>
+<summary><b>Obtenção de dados</b></summary>
+Os dados foram obtidos através de três CVS nomeados como "track_in_spotify", "track_in_competition","track,technical_info"
+
+**Importação da base de dados**
+A primeira fase deste projeto consistiu na importação das bases de dados para o ambiente do BigQuery no Google Cloud. Dentro da opção "BigQuery", foi criada uma pasta denominada "projeto-2-hipoteses". Para isso, foram importadas as tabelas diretamente através do upload de arquivos, adicionando os três arquivos CSV correspondentes a "track_in_competition", "track_in_spotify" e "track_technical_info" dentro de uma subpasta denominada "dados_spotify". Essa abordagem permitiu uma organização estruturada e acessível dos dados, facilitando sua manipulação e análise subsequentes.
 
 
-
-
-
-
-
+</details>
