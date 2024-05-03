@@ -155,7 +155,10 @@ Essa categorização nos permitiu analisar as características das músicas de f
 
 <details>
 <summary><b> Segmentação de Dados por Quartis </b></summary>
+  
 Para uma análise mais simplificada e interpretável, decidimos segmentar os dados em duas categorias distintas, denominadas "alta" e "baixa", para os quartis das variáveis que representam as características das músicas. Essa segmentação nos permitiu agrupar os valores dos quartis de maneira mais intuitiva, facilitando a comparação e interpretação dos resultados.
+
+
 
 **Metodologia de Segmentação:**
 Utilizamos uma abordagem baseada em regras simples para atribuir os valores dos quartis às categorias "alta" e "baixa". Os valores 1 e 2 foram agrupados na categoria "baixa", enquanto os valores 3 e 4 foram agrupados na categoria "alta". Para realizar essa segmentação, empregamos o comando IF para criar uma lógica de classificação e agregamos os resultados por meio do comando JOIN.
