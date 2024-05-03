@@ -32,5 +32,14 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 </details>
 
 
+<details>
+<summary><b>Ferramentas e Tecnologia</b></summary>
+
+*BigQuery: O BigQuery é um serviço de armazenamento e análise de dados na nuvem fornecido pelo Google Cloud Platform. Ele oferece capacidade escalável para armazenar grandes volumes de dados e realizar consultas SQL de forma rápida e eficiente. No contexto deste projeto, o BigQuery foi utilizado para importar as bases de dados, limpar e tratar os dados iniciais, realizar manipulações e alterações nos tipos de dados, além de criar variáveis adicionais conforme necessário.
+
+
+</details>
+
+
 
 
