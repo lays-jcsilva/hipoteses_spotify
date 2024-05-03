@@ -13,11 +13,12 @@ Validação de hipóteses Spotify
 
 <details>
 <summary><b>Objetivo</b></summary>
-
   
 O objetivo principal deste projeto foi aplicar testes estatísticos, como correlação, teste de significância e regressão linear, para validar ou refutar hipóteses relevantes. Essas análises visam fornecer descobertas valiosas para uma gravadora que busca entender o contexto da indústria musical para lançar um novo artista
 
 **Contexto**
+
+
 A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a chave para o triunfo reside na capacidade de tomar decisões estratégicas guiadas por dados.
 
 Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
@@ -28,6 +29,7 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 <summary><b>Equipe</b></summary>
 
 
+
   Lays Silva e Nicole Machado Corrêa
 
 </details>
@@ -35,6 +37,7 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 
 <details>
 <summary><b>Ferramentas e Tecnologia</b></summary>
+
 
 
 **BigQuery:** O BigQuery é um serviço de armazenamento e análise de dados na nuvem fornecido pelo Google Cloud Platform. Ele oferece capacidade escalável para armazenar grandes volumes de dados e realizar consultas SQL de forma rápida e eficiente. No contexto deste projeto, o BigQuery foi utilizado para importar as bases de dados, limpar e tratar os dados iniciais, realizar manipulações e alterações os tipos de dados, além de criar variáveis adicionais conforme necessário.
@@ -72,8 +75,6 @@ A primeira fase deste projeto consistiu na importação das bases de dados para 
 **track_technical_info:** A tabela "track_technical_info" contém informações técnicas detalhadas sobre as músicas. Ela inclui o identificador exclusivo da música (track_id) e uma série de métricas que descrevem características musicais específicas. Estas métricas incluem o número de batidas por minuto (bpm), indicando o ritmo da música, a porcentagem de danceability, que representa o quão adequada a música é para dançar, o valence, indicando a positividade do conteúdo musical, a energia (energy) percebida da música, a acústica(acusticness), representando a quantidade de som acústico presente, a instrumentabilidade (instrumentality_),  indicando a quantidade de conteúdo instrumental, a porcentagem de liveness, que reflete a presença de elementos de performance ao vivo, e a speechiness, que representa a quantidade de palavras faladas na música. Essas informações fornecem uma compreensão detalhada das características musicais de cada faixa, possibilitando análises mais profundas sobre seu estilo, apelo emocional e potencial de engajamento com o público.
 
 </details>
-
-<br> <!-- Espaçamento para separar as listas -->
 
 <details>
 <summary><b> Limpeza dos dados</b></summary>
