@@ -97,5 +97,18 @@ Através de comandos SQL, como SELECT EXCEPT, foi decidido remover as variáveis
 A variável "streams", que originalmente estava no formato de string, foi convertida para um formato numérico utilizando o comando SAFE_CAST. Essa conversão permite que os dados sejam tratados e analisados de forma mais eficiente, possibilitando a realização de cálculos e análises estatísticas relevantes,proporcionando uma compreensão mais precisa do número total de streams de cada música no Spotify.
 
 
+**Criação de novas variáveis:** 
+Através dos comandos CONCAT, CAST e JOIN, foram criadas as seguintes variáveis:
+
+
+* "release_date_concat": Esta variável foi criada com o propósito de combinar três variáveis: *"released_year", "released_month" e "released_day", formando uma única data que representa o ano, mês e dia de lançamento de uma música.
+
+*"soma_playlists": Esta variável representa a soma de uma música em playlists do Spotify, Deezer e Apple, sendo criada através da concatenação das variáveis "in_spotify_playlists", "in_apple_playlists" e "in_deezer_playlists".
+
+Obs: Não consideramos o Shazam, pois se trata de um aplicativo que identifica o nome da música que está tocando no ambiente, ele é útil para quem não conhece ou se esqueceu do nome da canção reproduzida
+
+*"count_music_artosolo": Esta variável foi criada para representar a quantidade de músicas por artista solo. Para sua criação, foram utilizados os comandos SQL WITH, COUNT e GROUP BY.
+
+Essas variáveis foram criadas utilizando uma combinação de funções e comandos SQL para agregar e manipular os dados de forma significativa, proporcionando insights valiosos para análises posteriores.
 
 </details>
