@@ -314,6 +314,8 @@ A análise de regressão linear mostrou que algumas características da música,
 Considerando os resultados dos testes estatísticos e a análise dos coeficientes de regressão, optou-se por refutar a hipótese de que as características das músicas influenciam o sucesso em termos de número de streams no Spotify. Embora algumas características, como "danceability" e "speechiness", pareçam ter impacto significativo, outras não demonstraram uma associação clara com o número de streams. Portanto, a influência das características musicais no sucesso das músicas em termos de streams no Spotify não pode ser generalizada, e a relação entre essas variáveis é mais complexa do que inicialmente previsto.
 </details>
 
+</details>
+
 <details>
 <summary><b> 💡 Recomendações  </b></summary>
 
@@ -334,6 +336,7 @@ Com base nas conclusões da análise exploratória dos dados e no objetivo de aj
 **Colaborações com Artistas Reconhecidos:** Se possível  sugerimos parcerias com artistas já estabelecidos que podem ajudar a aumentar a visibilidade do novo artista. Procure colaborações com artistas que tenham um grande número de seguidores nas plataformas de streaming, o que pode levar a um aumento no número de streams.
 
 Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente em constante mudança da indústria musical, o novo artista terá uma melhor chance de alcançar o sucesso desejado.
+
 
 </details>
 
