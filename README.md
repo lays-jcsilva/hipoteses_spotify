@@ -35,7 +35,7 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 <details>
 <summary><b>Ferramentas e Tecnologia</b></summary>
 
-**BigQuery:** O BigQuery é um serviço de armazenamento e análise de dados na nuvem fornecido pelo Google Cloud Platform. Ele oferece capacidade escalável para armazenar grandes volumes de dados e realizar consultas SQL de forma rápida e eficiente. No contexto deste projeto, o BigQuery foi utilizado para importar as bases de dados, limpar e tratar os dados iniciais, realizar manipulações e alterações nos tipos de dados, além de criar variáveis adicionais conforme necessário.
+**BigQuery:** O BigQuery é um serviço de armazenamento e análise de dados na nuvem fornecido pelo Google Cloud Platform. Ele oferece capacidade escalável para armazenar grandes volumes de dados e realizar consultas SQL de forma rápida e eficiente. No contexto deste projeto, o BigQuery foi utilizado para importar as bases de dados, limpar e tratar os dados iniciais, realizar manipulações e alterações os tipos de dados, além de criar variáveis adicionais conforme necessário.
 
 **Google Colab:** Uma plataforma de desenvolvimento baseada em nuvem, foram conduzidos os testes de significância estatística. Esta ferramenta permite escrever e executar código Python de forma colaborativa e eficiente, aproveitando recursos computacionais como GPU e TPU. Os testes de significância foram realizados para avaliar a validade estatística das hipóteses levantadas durante a análise de dados. O ambiente interativo do Google Colab proporcionou uma experiência flexível e acessível para conduzir esses testes, permitindo uma análise robusta dos resultados.
 
@@ -51,13 +51,25 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 
 <details>
 <summary><b>Obtenção de dados</b></summary>
-Os dados foram obtidos através de três CVS nomeados como "track_in_spotify", "track_in_competition","track,technical_info"
+Os dados foram obtidos através arquivos CVS nomeados como "track_in_spotify", "track_in_competition" e "track,technical_info".
 
 
 **Importação da base de dados**
 
 
 A primeira fase deste projeto consistiu na importação das bases de dados para o ambiente do BigQuery no Google Cloud. Dentro da opção "BigQuery", foi criada uma pasta denominada "projeto-2-hipoteses". Para isso, foram importadas as tabelas diretamente através do upload de arquivos, adicionando os três arquivos CSV correspondentes a "track_in_competition", "track_in_spotify" e "track_technical_info" dentro de uma subpasta denominada "dados_spotify". Essa abordagem permitiu uma organização estruturada e acessível dos dados, facilitando sua manipulação e análise subsequentes.
+
+<details>
+<summary><b> Limpeza dos dados</b></summary>
+
+**Dados Nulos**
+
+Para identificar e tratar valores nulos no BigQuery, foram empregados comandos SQL, incluindo SELECT, FROM, WHERE e IS NULL, para localizar os valores nulos dentro de cada uma das variáveis das tabelas. Durante a análise, constatou-se a presença de 50 valores nulos na variável "in_shazam_charts" e 95 valores nulos na variável "key". Para abordar os valores nulos na variável "in_shazam_charts", optou-se por utilizar o valor da mediana para preenchê-los, uma vez que esse método resultou em uma variação mínima na média dos dados. Essa estratégia de tratamento foi escolhida para preservar a integridade e a representatividade dos dados, garantindo a qualidade da análise subsequente.
+
+**Dados Duplicados**
+Para identificar e tratar valores duplicados no BigQuery, foram utilizados os comandos SQL COUNT, GROUP BY e HAVING. Durante a análise, foram identificados 10 valores duplicados para a variável "track_name". Para lidar com essa duplicidade, foram removidos 5 valores duplicados, garantindo a integridade e a consistência dos dados. Essa abordagem foi adotada para assegurar a precisão e a confiabilidade da análise subsequente, evitando distorções nos resultados devido a entradas duplicadas.
+
+
 
 
 </details>
