@@ -343,6 +343,6 @@ Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente 
 <details>
 <summary><b> Links de interesse  </b></summary>
 
-Teste Não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
+Teste não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
 
 </details>
