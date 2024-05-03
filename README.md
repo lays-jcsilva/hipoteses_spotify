@@ -37,6 +37,12 @@ Nesse cenário desafiador uma gravadora visionária se depara com a missão extr
 
 **BigQuery:** O BigQuery é um serviço de armazenamento e análise de dados na nuvem fornecido pelo Google Cloud Platform. Ele oferece capacidade escalável para armazenar grandes volumes de dados e realizar consultas SQL de forma rápida e eficiente. No contexto deste projeto, o BigQuery foi utilizado para importar as bases de dados, limpar e tratar os dados iniciais, realizar manipulações e alterações nos tipos de dados, além de criar variáveis adicionais conforme necessário.
 
+**Google Colab:** Uma plataforma de desenvolvimento baseada em nuvem, foram conduzidos os testes de significância estatística. Esta ferramenta permite escrever e executar código Python de forma colaborativa e eficiente, aproveitando recursos computacionais como GPU e TPU. Os testes de significância foram realizados para avaliar a validade estatística das hipóteses levantadas durante a análise de dados. O ambiente interativo do Google Colab proporcionou uma experiência flexível e acessível para conduzir esses testes, permitindo uma análise robusta dos resultados.
+
+**Python:** Uma linguagem de programação versátil e poderosa, foi empregado neste projeto para conduzir uma análise de regressão linear. Além disso, Python foi utilizado para criar gráficos de dispersão.
+
+**Power BI:** Uma ferramenta de visualização de dados da Microsoft, desempenhou um papel fundamental neste projeto ao criar um dashboard abrangente e informativo. Este dashboard integrava diversos dados da base de dados, proporcionando uma visão holística e detalhada do cenário da indústria musical em 2023.A capacidade de conectar e consolidar dados de diferentes fontes, a ampla variedade de opções de visualização e a facilidade de compartilhamento foram aspectos essenciais que contribuíram para a criação de um painel.
+
 
 </details>
 
