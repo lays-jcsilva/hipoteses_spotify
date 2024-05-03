@@ -221,11 +221,32 @@ A análise de regressão linear desempenhou um papel crucial na investigação d
 
 **Implementação em Python:**
 Utilizamos a linguagem Python para implementar a análise de regressão linear, aproveitando as bibliotecas e ferramentas disponíveis na linguagem para conduzir a análise de forma eficiente e precisa. A flexibilidade e a robustez do Python nos permitiram explorar as relações entre as variáveis e extrair insights valiosos dos dados.
+</details>
+
+</details>
+
+<details>
+<summary><b> Resultados e Conclusões </b></summary>
+
+**Conclusões da Análise Exploratória dos Dados**
+
+<summary><b> Hipótese 1 - Impacto BPM nos Streams </b></summary>
+
+A suposição inicial de que músicas com um maior número de batidas por minuto (BPM) teriam um maior número de streams não foi confirmada pela análise exploratória dos dados. Os resultados dos testes estatísticos revelaram o seguinte:
+
+**Teste de Correlação:**
+O coeficiente de correlação entre as variáveis "bpm" e "streams" foi calculado como -0.0009, indicando uma correlação negativa muito fraca entre elas. Esse valor sugere que não há uma associação significativa entre o BPM e o número de streams das músicas.
+
+**Teste de Significância (Mann-Whitney):**
+Ao analisar as categorias "alta" e "baixa" da variável "bpm" em relação ao número de streams, não foi encontrada diferença significativa entre elas. Isso indica que o BPM não parece influenciar de forma significativa o número de streams das músicas.
+
+**Teste de Regressão Linear:**
+O teste de regressão linear apresentou um valor de p = 0.944 para a variável independente "bpm". Esse valor elevado de p indica que o BPM não é estatisticamente significativo para prever os streams. Em outras palavras, o BPM não é um bom preditor do número de streams das músicas.
+
+**Conclusão Geral:**
+Com base nos resultados desses testes estatísticos, não encontramos evidências estatísticas que sustentem a ideia de uma relação significativa entre as variáveis "bpm" e "streams". Portanto, não podemos afirmar que o BPM das músicas influencia diretamente o número de streams no Spotify. Outros fatores podem ter um papel mais significativo na popularidade e no sucesso das músicas na plataforma.
 
 
-
-
-
-
+</details>
 
 </details>
