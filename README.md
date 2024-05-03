@@ -340,8 +340,6 @@ Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente 
 <details>
 <summary><b> Links de interesse  </b></summary>
 
-Google Colab: https://colab.research.google.com/drive/1gpJLrMbSNPI_ocL7oP722QzGlZXBkRTt?authuser=1#scrollTo=Yr5zgaSCV9BU
-
-Obs: Para rodar o código é necessário incluir a tabela "dados_spotify_categorizados"
+Teste Não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
 
 </details>
