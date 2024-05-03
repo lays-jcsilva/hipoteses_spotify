@@ -297,7 +297,7 @@ Com base nos resultados dos testes estatísticos, podemos concluir que existe um
 </details>
 
 <details>
-<summary><b> Hipótese 5-  </b></summary>
+<summary><b> Hipótese 5- Influência das Características Musicais no Número de Streams no Spotify  </b></summary>
 
 Após análise, concluiu-se que as características das músicas têm impacto variado no sucesso em termos de número de streams no Spotify. Os resultados dos testes estatísticos são os seguintes:
 
@@ -314,5 +314,33 @@ A análise de regressão linear mostrou que algumas características da música,
 Considerando os resultados dos testes estatísticos e a análise dos coeficientes de regressão, optou-se por refutar a hipótese de que as características das músicas influenciam o sucesso em termos de número de streams no Spotify. Embora algumas características, como "danceability" e "speechiness", pareçam ter impacto significativo, outras não demonstraram uma associação clara com o número de streams. Portanto, a influência das características musicais no sucesso das músicas em termos de streams no Spotify não pode ser generalizada, e a relação entre essas variáveis é mais complexa do que inicialmente previsto.
 </details>
 
+<details>
+<summary><b> 💡 Recomendações  </b></summary>
+
+Com base nas conclusões da análise exploratória dos dados e no objetivo de ajudar o novo artista a alcançar o sucesso, aqui estão algumas sugestões:
+
+**Diversificação do Conteúdo Musical:** Embora as características das músicas não demonstram uma influência clara no número de streams, é importante diversificar o conteúdo musical para atrair uma ampla audiência. É recomendável experimentar criar músicas com diferentes estilos, ritmos e letras para atingir diferentes públicos-alvo.
+
+**Aproveitar Plataformas de Playlist:** A presença em playlists é um fator significativo para o sucesso no Spotify. Portanto, é recomendável concentrar-se em promover músicas para curadores de playlists (responsável por criar as playlists editoriais da maneira mais segmentada possível, casando com o público alvo daquele gênero e organizando as músicas que fazem sentido estar dentro da playlist) e tentar garantir inclusões em playlists populares. Isso pode ser feito através de networking, promoção ativa e envio direto das  músicas do novo artista para os curadores.
+
+**Foco na Qualidade do Conteúdo Falado:** A variável "speechiness" mostrou ter alguma influência no número de streams. Embora refutamos a análise olhando para o contexto geral, é importante prestar atenção à qualidade e ao conteúdo das partes faladas em suas músicas, como letras e interlúdios, garantindo que sejam cativantes e envolventes para os ouvintes.
+
+**Engajamento com a Audiência:** É recomendável construir uma forte presença nas redes sociais e interagir regularmente com a base de fãs. Respondendo a comentários, participando de conversas e compartilhando conteúdos exclusivos para manter os fãs engajados e criar uma comunidade em torno da música do novo artista.
+
+**Replicação de Estratégias Bem-Sucedidas:** Observar a correlação positiva entre as músicas mais populares no Spotify e seu desempenho nas plataformas Deezer e Apple sugere que estratégias bem-sucedidas no Spotify podem ser replicadas em outras plataformas de streaming. A gravadora pode explorar essas oportunidades para maximizar o alcance do novo artista e aumentar sua base de fãs em diferentes plataformas.
+
+**Análise Contínua de Dados:** É recomendável se manter atualizado com as tendências do mercado musical e analisar continuamente os dados de streaming das  músicas do novo artista. Isso permitirá ajustes e adaptações em sua estratégia conforme necessário para maximizar seu potencial de sucesso.
+
+**Colaborações com Artistas Reconhecidos:** Se possível  sugerimos parcerias com artistas já estabelecidos que podem ajudar a aumentar a visibilidade do novo artista. Procure colaborações com artistas que tenham um grande número de seguidores nas plataformas de streaming, o que pode levar a um aumento no número de streams.
+
+Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente em constante mudança da indústria musical, o novo artista terá uma melhor chance de alcançar o sucesso desejado.
+
+</details>
+
+<details>
+<summary><b> Links de interesse  </b></summary>
+
+Google Colab: https://colab.research.google.com/drive/1gpJLrMbSNPI_ocL7oP722QzGlZXBkRTt?authuser=1#scrollTo=Yr5zgaSCV9BU
+Obs: Para rodar o código é necessário incluir a tabela "dados_spotify_categorizados"
 
 </details>
