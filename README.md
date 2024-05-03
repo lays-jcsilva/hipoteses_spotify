@@ -1,4 +1,4 @@
-# 📊 🎧 Análise de dados para teste de hipoteses spotify
+# 📊 🎧 Análise de Dados para Teste de Hipóteses Spotify
 
 Olá, seja bem-vindo(a) à análise de dados do Spotify!
 
@@ -105,10 +105,21 @@ Através dos comandos CONCAT, CAST e JOIN, foram criadas as seguintes variáveis
 
 * "soma_playlists": Esta variável representa a soma de uma música em playlists do Spotify, Deezer e Apple, sendo criada através da concatenação das variáveis "in_spotify_playlists", "in_apple_playlists" e "in_deezer_playlists".
 
-Obs: Não consideramos o Shazam, pois se trata de um aplicativo que identifica o nome da música que está tocando no ambiente, ele é útil para quem não conhece ou se esqueceu do nome da canção reproduzida
+Obs: Não consideramos o Shazam, pois se trata de um aplicativo que identifica o nome da música que está tocando no ambiente, ele é útil para quem não conhece ou se esqueceu do nome da canção reproduzida.
 
 * "count_music_artosolo": Esta variável foi criada para representar a quantidade de músicas por artista solo. Para sua criação, foram utilizados os comandos SQL WITH, COUNT e GROUP BY.
 
 Essas variáveis foram criadas utilizando uma combinação de funções e comandos SQL para agregar e manipular os dados de forma significativa, proporcionando insights valiosos para análises posteriores.
+
+
+**Consolidação dos dados:**
+Ao término do processo, foi realizada a integração das tabelas 'track_in_competition', 'track_in_spotify' e 'track_technical_info' por meio dos comandos CREATE TABLE, LEFT JOIN e JOIN, resultando na criação da tabela 'dados_spotify_final'."
+
+</details>
+
+<details>
+<summary><b> Análise Exploratória dos dados </b></summary>
+
+
 
 </details>
