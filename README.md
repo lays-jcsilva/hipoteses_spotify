@@ -266,19 +266,53 @@ Com base nos resultados desses testes estatísticos, podemos concluir que há um
 </details>
 
 <details>
-<summary><b> Hipótese 2 - Correlação entre o Ranking do Spotify e Outras Plataformas </b></summary>
+<summary><b> Hipótese 3 - Correlação entre a Presença em Playlists e o Número de Streams  </b></summary>
+Os testes realizados confirmaram a hipótese de que a presença de uma música em um maior número de playlists está correlacionada com um aumento significativo no número de streams. Abaixo estão os resultados dos testes estatísticos:
 
 **Teste de Correlação:**
-As correlações entre o ranking do Spotify e as plataformas Deezer e Apple foram calculadas como 0.5998 e 0.5519, respectivamente. Esses valores indicam uma correlação positiva entre as plataformas, sugerindo que as músicas populares no Spotify tendem a ter um desempenho semelhante nas plataformas Deezer e Apple.
+Após análises, verificou-se uma correlação positiva entre a presença de uma música em playlists e o número de streams, com um valor de p = 0.7835. Esse resultado indica que há uma correlação significativa entre as duas variáveis, confirmando a hipótese de que uma maior presença em playlists está associada a um aumento no número de streams.
 
 **Teste de Regressão Linear:**
-As regressões aplicadas apresentaram valores de p < 0.05, o que indica que há uma evidência estatisticamente significativa para a relação entre as músicas populares no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Em outras palavras, as músicas que são populares no Spotify têm uma associação estatisticamente significativa com as plataformas Deezer e Apple.
+O teste de regressão revelou um R-quadrado de 0.625, o que significa que aproximadamente 62.5% da variabilidade nos streams pode ser explicada pela presença de uma música em playlists. Esse valor indica uma relação moderadamente forte entre as variáveis e sugere que a presença em playlists é um fator significativo na determinação do número de streams de uma música.
 
 **Conclusão Geral:**
-Com base nos resultados desses testes estatísticos, podemos concluir que há uma associação estatisticamente significativa entre a popularidade das músicas no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Portanto, a hipótese de que as músicas mais populares no Spotify também são populares nas plataformas Deezer e Apple foi validada. Isso sugere que o sucesso de uma música em uma plataforma de streaming pode influenciar seu desempenho em outras plataformas, indicando uma tendência geral no comportamento dos usuários.
+Com base nos resultados dos testes estatísticos, pode-se concluir que há uma relação significativa entre a presença de uma música em playlists e o aumento no número de streams. Isso confirma a importância das playlists como impulsionadores de sucesso para as músicas no ambiente de streaming. Portanto, a hipótese de que a presença em playlists está correlacionada com o número de streams foi validada.
+
 </details>
 
 <details>
-<summary><b> Hipótese 3 -  </b></summary>
+<summary><b> Hipótese 4 - Relação entre o Número de Músicas de um Artista e o Total de Streams no Spotify  </b></summary>
+
+Os resultados da análise indicam uma correlação positiva e significativa entre o número de músicas disponíveis de um artista no Spotify e o total de streams acumulados. Os testes estatísticos realizados revelaram o seguinte:
+
+**Teste de Correlação:**
+Foi observada uma correlação positiva entre o número de músicas de um artista e o total de streams no Spotify, com um valor de p = 0.7783. Esse resultado sugere uma associação significativa entre as duas variáveis, apoiando a hipótese de que um maior catálogo de músicas está relacionado a um aumento nos streams.
+
+**Teste de Regressão Linear:**
+O teste de regressão linear apresentou um R-quadrado de 0.606, indicando que aproximadamente 60.6% da variação nos streams pode ser explicada pelo número de músicas de um artista no Spotify. Esse valor aponta para uma relação positiva e substancial entre as variáveis, evidenciando que um aumento no número de faixas está associado a um aumento significativo na quantidade de streams.
+
+**Conclusão Geral:**
+Com base nos resultados dos testes estatísticos, podemos concluir que existe uma relação estatisticamente significativa entre o número de músicas de um artista e o total de streams no Spotify. Isso destaca a importância da disponibilidade do catálogo de um artista para o sucesso na plataforma de streaming. Portanto, a hipótese de que o número de faixas de um artista está relacionado ao número de streams foi validada.
+
+</details>
+
+<details>
+<summary><b> Hipótese 5-  </b></summary>
+
+Após análise, concluiu-se que as características das músicas têm impacto variado no sucesso em termos de número de streams no Spotify. Os resultados dos testes estatísticos são os seguintes:
+
+**Teste de Correlação:**
+Observou-se uma correlação negativa muito fraca entre todas as características das músicas e o número de streams no Spotify, com valores próximos de zero. Isso sugere uma relação mínima ou inexistente entre essas variáveis.
+
+**Teste de Significância:**
+Apenas a variável "speechiness" apresentou diferença significativa entre suas categorias e o número de streams. Isso indica que o conteúdo falado na música tem alguma influência no número de streams, mas as outras características não demonstraram uma diferença significativa.
+
+**Teste de Regressão Linear:**
+A análise de regressão linear mostrou que algumas características da música, como "danceability" e "speechiness", têm uma influência significativa no número de streams. No entanto, outras características, como "valence", "energy", "acousticness", "instrumentalness" e "liveness", não apresentaram uma relação estatisticamente significativa com os streams.
+
+**Conclusão Geral:**
+Considerando os resultados dos testes estatísticos e a análise dos coeficientes de regressão, optou-se por refutar a hipótese de que as características das músicas influenciam o sucesso em termos de número de streams no Spotify. Embora algumas características, como "danceability" e "speechiness", pareçam ter impacto significativo, outras não demonstraram uma associação clara com o número de streams. Portanto, a influência das características musicais no sucesso das músicas em termos de streams no Spotify não pode ser generalizada, e a relação entre essas variáveis é mais complexa do que inicialmente previsto.
+</details>
+
 
 </details>
