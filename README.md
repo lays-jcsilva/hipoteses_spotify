@@ -61,7 +61,7 @@ A primeira fase deste projeto consistiu na importação das bases de dados para 
 
 * Descrição das tabelas:
 
-**track_in_spotify:**A tabela "track_in_spotify" contém informações sobre as músicas disponíveis no Spotify. Ela inclui o identificador exclusivo da música (track_id), o nome da música (track_name), o nome do(s) artista(s) (artist(s)_name), o número de artistas que contribuíram na música (artist_count), o ano, mês e dia em que a música foi lançada (released_year, released_month, released_day), o número de listas de reprodução do Spotify em que a música está incluída (in_spotify_playlists), a presença e posição da música nas paradas do Spotify (in_spotify_charts) e o número total de streams, representando o número de vezes que a música foi ouvida pelos usuários do Spotify (streams). Essa tabela fornece uma visão abrangente das características e do desempenho das músicas na plataforma de streaming.
+**track_in_spotify:** A tabela "track_in_spotify" contém informações sobre as músicas disponíveis no Spotify. Ela inclui o identificador exclusivo da música (track_id), o nome da música (track_name), o nome do(s) artista(s) (artist(s)_name), o número de artistas que contribuíram na música (artist_count), o ano, mês e dia em que a música foi lançada (released_year, released_month, released_day), o número de listas de reprodução do Spotify em que a música está incluída (in_spotify_playlists), a presença e posição da música nas paradas do Spotify (in_spotify_charts) e o número total de streams, representando o número de vezes que a música foi ouvida pelos usuários do Spotify (streams). Essa tabela fornece uma visão abrangente das características e do desempenho das músicas na plataforma de streaming.
 
 **track_in_competition:** A tabela "track_in_competition" oferece insights sobre a competição das músicas em outras plataformas de streaming, além do Spotify. Ela inclui o identificador exclusivo da música (track_id) e informações sobre sua presença e desempenho em serviços como Apple Music, Deezer e Shazam. Para cada plataforma, são registrados o número de listas de reprodução em que a música está incluída (in_apple_playlists, in_deezer_playlists), bem como sua posição e classificação nas respectivas paradas de sucesso (in_apple_charts, in_deezer_charts, in_shazam_charts). Essa tabela permite uma análise comparativa do desempenho das músicas em diferentes plataformas de streaming, fornecendo uma visão abrangente da sua popularidade e alcance entre os usuários.
 
@@ -73,7 +73,6 @@ A primeira fase deste projeto consistiu na importação das bases de dados para 
 <summary><b> Limpeza dos dados</b></summary>
 
 **Dados Nulos**
-
 Para identificar e tratar valores nulos no BigQuery, foram empregados comandos SQL, incluindo SELECT, FROM, WHERE e IS NULL, para localizar os valores nulos dentro de cada uma das variáveis das tabelas. Durante a análise, constatou-se a presença de 50 valores nulos na variável "in_shazam_charts" e 95 valores nulos na variável "key". Para abordar os valores nulos na variável "in_shazam_charts", optou-se por utilizar o valor da mediana para preenchê-los, uma vez que esse método resultou em uma variação mínima na média dos dados. Essa estratégia de tratamento foi escolhida para preservar a integridade e a representatividade dos dados, garantindo a qualidade da análise subsequente.
 
 **Dados Duplicados**
@@ -84,10 +83,12 @@ Para identificar e tratar valores duplicados no BigQuery, foram utilizados os co
 <summary><b> Transformação dos dados</b></summary>
 
 **Dados fora do escopo da análise e discrepantes**
+
 Através de comandos SQL, como SELECT EXCEPT, foi decidido remover as variáveis "key" (tom musical da música) e "mode" (modo de música -maior ou menor), pois foram consideradas irrelevantes para o propósito da análise. Em relação aos dados discrepantes, foi utilizado o comando REGEXP REPLACE para manipulação de strings, corrigindo caracteres nas variáveis "track_name" e "artist_s__name". Para identificar discrepâncias em variáveis numéricas, como "streams", originalmente armazenada como string, empregaram-se os comandos MAX, MIN e AVG. Essa abordagem permitiu a identificação e correção de valores discrepantes, garantindo a qualidade e a confiabilidade dos dados.
 
 
 **Conversão do tipo de dados da variável 'streams'**
+
 A variável "streams", que originalmente estava no formato de string, foi convertida para um formato numérico utilizando o comando SAFE_CAST. Essa conversão permite que os dados sejam tratados e analisados de forma mais eficiente, possibilitando a realização de cálculos e análises estatísticas relevantes,proporcionando uma compreensão mais precisa do número total de streams de cada música no Spotify.
 
 
