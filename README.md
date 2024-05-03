@@ -122,6 +122,107 @@ Ao término do processo, foi realizada a integração das tabelas 'track_in_comp
 
 <details>
 <summary><b> Análise Exploratória dos dados </b></summary>
-Análise será ...
+
+
+<details>
+<summary><b> Comportamento e visualização dos dados </b></summary>
+  
+Após importar os dados tratados para o ambiente do Power BI, realizamos uma análise exploratória para entender o comportamento dos dados e extrair insights valiosos. Esta etapa envolveu várias técnicas de visualização e análise estatística para compreender melhor as características dos dados.
+
+* Agrupamento por Artista e por Música: Inicialmente, realizamos um agrupamento para verificar quantos streams havia por artista e por música. Essa análise nos permitiu entender a distribuição dos streams em relação aos artistas e às músicas, identificando padrões de popularidade e engajamento.
+
+* Gráfico de Barras: Para visualizar essas distribuições, criamos gráficos de barras que destacavam a quantidade de streams por artista e por música. Esses gráficos proporcionaram uma representação visual clara e intuitiva da popularidade das músicas e dos artistas no Spotify.
+
+* Estatísticas Descritivas: Além disso, calculamos os valores de média, mediana e desvio padrão das variáveis numéricas da tabela. Essas estatísticas descritivas nos forneceram insights sobre a tendência central e a dispersão dos dados, ajudando a identificar possíveis outliers e padrões de comportamento.
+  
+* Histograma: Para uma compreensão mais detalhada da distribuição das variáveis numéricas, criamos um histograma que mostra a frequência de ocorrência de diferentes faixas de valores. Esse histograma nos permitiram visualizar a forma e a dispersão dos dados, facilitando a identificação de padrões e tendências.
+  
+* Gráfico de Linhas:
+Por fim, geramos um gráfico de linhas para visualizar o número de músicas lançadas por ano. Esse gráfico nos ajudou a entender a evolução temporal da produção musical e a identificar tendências ao longo do tempo.
+  
+</details>  
+
+<details>
+<summary><b> Cálculo de quartis </b></summary>
+
+Para uma análise mais granular das características das músicas (“bpm”, “danceability”, “valence”, “energy”, “acousticness”, “instrumentalness”, “liveness” e “speechiness”) , decidimos categorizar as variáveis ​​que representam essas características em quartis, atribuindo valores de 1 a 4. . Essa abordagem nos permitiu agrupar as músicas com base em diferentes níveis dessas características, proporcionando uma compreensão mais detalhada de sua diversidade e distribuição.
+
+Utilizamos uma combinação de comandos SQL, incluindo WITH, NTILE, OVER e ORDER BY, para realizar essa categorização de maneira eficiente e escalável. Primeiramente, definimos a lógica para a categorização dos quartis, atribuindo valores de 1 a 4 com base na distribuição das características das músicas na amostra de dados.
+
+Essa categorização nos permitiu analisar as características das músicas de forma mais abrangente, identificando padrões e tendências em diferentes faixas de valores. Além disso, facilitou a comparação entre músicas com características semelhantes e a identificação de grupos distintos com base em suas características musicais.
+
 </details>
 
+<details>
+<summary><b> Segmentação de Dados por Quartis </b></summary>
+Para uma análise mais simplificada e interpretável, decidimos segmentar os dados em duas categorias distintas, denominadas "alta" e "baixa", para os quartis das variáveis que representam as características das músicas. Essa segmentação nos permitiu agrupar os valores dos quartis de maneira mais intuitiva, facilitando a comparação e interpretação dos resultados.
+
+**Metodologia de Segmentação:**
+Utilizamos uma abordagem baseada em regras simples para atribuir os valores dos quartis às categorias "alta" e "baixa". Os valores 1 e 2 foram agrupados na categoria "baixa", enquanto os valores 3 e 4 foram agrupados na categoria "alta". Para realizar essa segmentação, empregamos o comando IF para criar uma lógica de classificação e agregamos os resultados por meio do comando JOIN.
+
+**Criação de Tabelas Matrizes:**
+Para avaliar o comportamento das variáveis das características das músicas em relação ao número médio de streams, criamos tabelas matriz para cada uma das variáveis. Essas tabelas permitiram verificar o valor médio de streams para cada uma das duas categorias criadas (alta e baixa) em relação a cada variável.
+
+Ao final, foi criada uma nova tabela utilizando o comando CREATE TABLE chamada “dados_spotify_categorizados".
+
+</details>
+
+<details>
+<summary><b> Teste de correlação </b></summary>
+
+Para validar as hipóteses inicialmente propostas neste projeto, realizamos o teste de correlação dentro do ambiente do BigQuery. Utilizamos o comando CORR para calcular a correlação entre as variáveis relevantes e investigar possíveis relações entre elas.
+
+**Metodologia do Teste:**
+Utilizamos uma abordagem estatística para avaliar a correlação entre as variáveis selecionadas. O teste de correlação nos permitiu determinar se existe uma relação linear entre duas variáveis e a direção (positiva ou negativa) e a força dessa relação.
+
+**Comando Utilizado:**
+
+* CORR: Utilizamos o comando CORR dentro do ambiente do BigQuery para calcular a matriz de correlação entre as variáveis de interesse. Esse comando nos forneceu uma visão geral das relações entre as variáveis e ajudou a identificar possíveis associações significativas.
+
+**Benefícios do Teste:**
+O teste de correlação nos permitiu avaliar a presença e a magnitude das relações entre as variáveis, fornecendo insights valiosos para a validação das hipóteses levantadas no início do projeto. Ao identificar correlações significativas, pudemos confirmar ou refutar  as relações esperadas entre as variáveis e orientar análises posteriores com base nos resultados obtidos. Esse teste foi essencial para fundamentar nossas conclusões e recomendações finais com base em evidências estatísticas sólidas.
+
+</details>
+
+<details>
+<summary><b> Teste de significância (Mann-Whitney) </b></summary>
+
+No ambiente do Google Colab, empregamos a linguagem Python para conduzir o teste de significância não paramétrico de Mann-Whitney, como parte da análise das hipóteses deste projeto. O objetivo principal desse teste foi determinar se existe uma diferença significativa entre dois grupos independentes de dados.
+
+**Metodologia do Teste:**
+O teste de Mann-Whitney é uma técnica estatística robusta que não requer que os dados sigam uma distribuição normal, tornando-o ideal para situações em que a normalidade dos dados é desconhecida. Ele avalia se existe uma diferença estatisticamente significativa entre as distribuições de duas amostras independentes, com base nos valores das observações.
+
+**Vantagens do Teste:**
+Uma das principais vantagens do teste de Mann-Whitney é sua capacidade de lidar com dados que não seguem uma distribuição normal. Isso o torna uma ferramenta valiosa para análises estatísticas em que a normalidade dos dados não pode ser assumida. Além disso, por ser um teste não paramétrico, ele é menos sensível a outliers e é mais robusto em relação a violações de pressupostos estatísticos.
+
+**Implementação em Python:**
+Utilizamos a linguagem Python no ambiente do Google Colab para implementar o teste de Mann-Whitney. Isso nos permitiu realizar uma análise estatística precisa e eficiente, aproveitando as bibliotecas e ferramentas disponíveis na linguagem para conduzir o teste de forma adequada.
+
+**Importância do Teste:**
+O teste de Mann-Whitney desempenhou um papel crucial na validação das hipóteses deste trabalho, fornecendo evidências estatísticas sólidas para suportar nossas conclusões. Ao determinar se existem diferenças significativas entre os grupos de dados analisados, este teste nos permitiu identificar padrões e tendências importantes, contribuindo para uma compreensão mais profunda do fenômeno em estudo.
+</details>
+
+<details>
+<summary><b> Teste de Regressão Linear (Mann-Whitney) </b></summary>
+  
+Utilizando a linguagem Python, conduzimos uma análise de regressão linear como parte da investigação das hipóteses deste projeto. O objetivo principal dessa análise foi examinar as relações entre as variáveis selecionadas e determinar se existem associações significativas entre elas.
+
+**Metodologia do Teste:**
+A análise de regressão linear é uma técnica estatística poderosa que nos permite modelar e investigar a relação entre uma variável dependente e uma ou mais variáveis independentes. Neste contexto, empregamos a regressão linear para avaliar o impacto de determinadas variáveis sobre uma variável de interesse e identificar padrões ou tendências nos dados.
+
+**Visualização dos Resultados:**
+Além da análise estatística, criamos gráficos de dispersão para visualizar o comportamento das variáveis em cada uma das hipóteses do projeto. Esses gráficos nos forneceram uma representação visual das relações entre as variáveis e ajudaram a identificar padrões ou tendências nos dados.
+
+**Importância da Análise:**
+A análise de regressão linear desempenhou um papel crucial na investigação das hipóteses deste projeto, fornecendo insights sobre a natureza das relações entre as variáveis estudadas. Ao identificar associações significativas, pudemos validar nossas hipóteses e compreender melhor os fatores que influenciam as variáveis de interesse.
+
+**Implementação em Python:**
+Utilizamos a linguagem Python para implementar a análise de regressão linear, aproveitando as bibliotecas e ferramentas disponíveis na linguagem para conduzir a análise de forma eficiente e precisa. A flexibilidade e a robustez do Python nos permitiram explorar as relações entre as variáveis e extrair insights valiosos dos dados.
+
+
+
+
+
+
+
+</details>
