@@ -115,12 +115,11 @@ Essas variáveis foram criadas utilizando uma combinação de funções e comand
 **Consolidação dos dados:**
 Ao término do processo, foi realizada a integração das tabelas 'track_in_competition', 'track_in_spotify' e 'track_technical_info' por meio dos comandos CREATE TABLE, LEFT JOIN e JOIN, resultando na criação da tabela 'dados_spotify_final'."
 
-</details>
 
 </details>
 
 <details>
-<summary><b> Transformação dos dados</b></summary>
+<summary><b> Análise Exploratória dos dados </b></summary>
 kkkkkkkkkkkkkkkkkkkkkkkkkkkk
 </details>
 
