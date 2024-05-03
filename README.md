@@ -228,6 +228,8 @@ Utilizamos a linguagem Python para implementar a análise de regressão linear, 
 <details>
 <summary><b> Resultados e Conclusões </b></summary>
 
+Conclusões da Análise Exploratória dos Dados
+
 <details>
 <summary><b> Hipótese 1 - Impacto BPM nos Streams </b></summary>
 
@@ -247,5 +249,36 @@ Com base nos resultados desses testes estatísticos, não encontramos evidência
 
 
 </details>
+
+<details>
+<summary><b> Hipótese 2 - Correlação entre o Ranking do Spotify e Outras Plataformas </b></summary>
+
+Os testes realizados confirmaram a hipótese inicial de que as músicas mais populares no ranking do Spotify também têm um desempenho semelhante nas plataformas Deezer e Apple. Os resultados dos testes estatísticos são os seguintes:
+
+**Teste de Correlação:**
+As correlações entre o ranking do Spotify e as plataformas Deezer e Apple foram calculadas como 0.5998 e 0.5519, respectivamente. Esses valores indicam uma correlação positiva entre as plataformas, sugerindo que as músicas populares no Spotify tendem a ter um desempenho semelhante nas plataformas Deezer e Apple.
+
+**Teste de Regressão Linear:**
+As regressões aplicadas apresentaram valores de p < 0.05, o que indica que há uma evidência estatisticamente significativa para a relação entre as músicas populares no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Em outras palavras, as músicas que são populares no Spotify têm uma associação estatisticamente significativa com as plataformas Deezer e Apple.
+
+**Conclusão Geral:**
+Com base nos resultados desses testes estatísticos, podemos concluir que há uma associação estatisticamente significativa entre a popularidade das músicas no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Portanto, a hipótese de que as músicas mais populares no Spotify também são populares nas plataformas Deezer e Apple foi validada. Isso sugere que o sucesso de uma música em uma plataforma de streaming pode influenciar seu desempenho em outras plataformas, indicando uma tendência geral no comportamento dos usuários.
+</details>
+
+<details>
+<summary><b> Hipótese 2 - Correlação entre o Ranking do Spotify e Outras Plataformas </b></summary>
+
+**Teste de Correlação:**
+As correlações entre o ranking do Spotify e as plataformas Deezer e Apple foram calculadas como 0.5998 e 0.5519, respectivamente. Esses valores indicam uma correlação positiva entre as plataformas, sugerindo que as músicas populares no Spotify tendem a ter um desempenho semelhante nas plataformas Deezer e Apple.
+
+**Teste de Regressão Linear:**
+As regressões aplicadas apresentaram valores de p < 0.05, o que indica que há uma evidência estatisticamente significativa para a relação entre as músicas populares no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Em outras palavras, as músicas que são populares no Spotify têm uma associação estatisticamente significativa com as plataformas Deezer e Apple.
+
+**Conclusão Geral:**
+Com base nos resultados desses testes estatísticos, podemos concluir que há uma associação estatisticamente significativa entre a popularidade das músicas no ranking do Spotify e seu desempenho nas plataformas Deezer e Apple. Portanto, a hipótese de que as músicas mais populares no Spotify também são populares nas plataformas Deezer e Apple foi validada. Isso sugere que o sucesso de uma música em uma plataforma de streaming pode influenciar seu desempenho em outras plataformas, indicando uma tendência geral no comportamento dos usuários.
+</details>
+
+<details>
+<summary><b> Hipótese 3 -  </b></summary>
 
 </details>
