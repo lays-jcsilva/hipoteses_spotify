@@ -206,7 +206,7 @@ O teste de Mann-Whitney desempenhou um papel crucial na validação das hipótes
 </details>
 
 <details>
-<summary><b> Teste de Regressão Linear (Mann-Whitney) </b></summary>
+<summary><b> Teste de Regressão Linear </b></summary>
   
 Utilizando a linguagem Python, conduzimos uma análise de regressão linear como parte da investigação das hipóteses deste projeto. O objetivo principal dessa análise foi examinar as relações entre as variáveis selecionadas e determinar se existem associações significativas entre elas.
 
