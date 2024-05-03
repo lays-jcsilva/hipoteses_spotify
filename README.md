@@ -79,23 +79,21 @@ A primeira fase deste projeto consistiu na importação das bases de dados para 
 <details>
 <summary><b> Limpeza dos dados</b></summary>
 
-**Dados Nulos**
+**Dados Nulos:**
 Para identificar e tratar valores nulos no BigQuery, foram empregados comandos SQL, incluindo SELECT, FROM, WHERE e IS NULL, para localizar os valores nulos dentro de cada uma das variáveis das tabelas. Durante a análise, constatou-se a presença de 50 valores nulos na variável "in_shazam_charts" e 95 valores nulos na variável "key". Para abordar os valores nulos na variável "in_shazam_charts", optou-se por utilizar o valor da mediana para preenchê-los, uma vez que esse método resultou em uma variação mínima na média dos dados. Essa estratégia de tratamento foi escolhida para preservar a integridade e a representatividade dos dados, garantindo a qualidade da análise subsequente.
 
-**Dados Duplicados**
+**Dados Duplicados:**
 Para identificar e tratar valores duplicados no BigQuery, foram utilizados os comandos SQL COUNT, GROUP BY e HAVING. Durante a análise, foram identificados 10 valores duplicados para a variável "track_name". Para lidar com essa duplicidade, foram removidos 5 valores duplicados, garantindo a integridade e a consistência dos dados. Essa abordagem foi adotada para assegurar a precisão e a confiabilidade da análise subsequente, evitando distorções nos resultados devido a entradas duplicadas.
 </details>
 
 <details>
 <summary><b> Transformação dos dados</b></summary>
 
-**Dados fora do escopo da análise e discrepantes**
-
+**Dados fora do escopo da análise e discrepantes:**
 Através de comandos SQL, como SELECT EXCEPT, foi decidido remover as variáveis "key" (tom musical da música) e "mode" (modo de música -maior ou menor), pois foram consideradas irrelevantes para o propósito da análise. Em relação aos dados discrepantes, foi utilizado o comando REGEXP REPLACE para manipulação de strings, corrigindo caracteres nas variáveis "track_name" e "artist_s__name". Para identificar discrepâncias em variáveis numéricas, como "streams", originalmente armazenada como string, empregaram-se os comandos MAX, MIN e AVG. Essa abordagem permitiu a identificação e correção de valores discrepantes, garantindo a qualidade e a confiabilidade dos dados.
 
 
-**Conversão do tipo de dados da variável 'streams'**
-
+**Conversão do tipo de dados da variável 'streams':**
 A variável "streams", que originalmente estava no formato de string, foi convertida para um formato numérico utilizando o comando SAFE_CAST. Essa conversão permite que os dados sejam tratados e analisados de forma mais eficiente, possibilitando a realização de cálculos e análises estatísticas relevantes,proporcionando uma compreensão mais precisa do número total de streams de cada música no Spotify.
 
 
