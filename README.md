@@ -228,8 +228,7 @@ Utilizamos a linguagem Python para implementar a análise de regressão linear, 
 <details>
 <summary><b> Resultados e Conclusões </b></summary>
 
-**Conclusões da Análise Exploratória dos Dados**
-
+<details>
 <summary><b> Hipótese 1 - Impacto BPM nos Streams </b></summary>
 
 A suposição inicial de que músicas com um maior número de batidas por minuto (BPM) teriam um maior número de streams não foi confirmada pela análise exploratória dos dados. Os resultados dos testes estatísticos revelaram o seguinte:
