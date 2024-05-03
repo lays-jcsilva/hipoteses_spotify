@@ -19,9 +19,9 @@ O objetivo principal deste projeto foi aplicar testes estatísticos, como correl
 **Contexto**
 
 
-A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a chave para o triunfo reside na capacidade de tomar decisões estratégicas guiadas por dados.
+A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a capacidade de tomar decisões baseadas em dados tornou-se um ativo valioso.
 
-Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
+Nesse cenário desafiador uma gravadora se depara com o desafio de lançar um novo artista em nível musical global , a gravadora possuí uma ferramenta poderosa que são os conjuntos de dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
 </details>
 
 
