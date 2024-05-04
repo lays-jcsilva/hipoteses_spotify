@@ -19,9 +19,9 @@ O objetivo principal deste projeto foi aplicar testes estatísticos, como correl
 **Contexto**
 
 
-A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a chave para o triunfo reside na capacidade de tomar decisões estratégicas guiadas por dados.
+A indústria musical faz parte de um ambiente que está em constante evolução e é altamente competitivo, a capacidade de tomar decisões baseadas em dados tornou-se um ativo valioso.
 
-Nesse cenário desafiador uma gravadora visionária se depara com a missão extraordinária de lançar um novo artista no firmamento musical global , ela dispõe um tesouro em sua mãos que são os dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
+Nesse cenário desafiador uma gravadora se depara com o desafio de lançar um novo artista em nível musical global , a gravadora possuí uma ferramenta poderosa que são os conjuntos de dados do spotify, repleto de insights valiosos sobre as músicas que dominaram as paradas em 2023.
 </details>
 
 
@@ -206,7 +206,7 @@ O teste de Mann-Whitney desempenhou um papel crucial na validação das hipótes
 </details>
 
 <details>
-<summary><b> Teste de Regressão Linear (Mann-Whitney) </b></summary>
+<summary><b> Teste de Regressão Linear </b></summary>
   
 Utilizando a linguagem Python, conduzimos uma análise de regressão linear como parte da investigação das hipóteses deste projeto. O objetivo principal dessa análise foi examinar as relações entre as variáveis selecionadas e determinar se existem associações significativas entre elas.
 
@@ -314,6 +314,8 @@ A análise de regressão linear mostrou que algumas características da música,
 Considerando os resultados dos testes estatísticos e a análise dos coeficientes de regressão, optou-se por refutar a hipótese de que as características das músicas influenciam o sucesso em termos de número de streams no Spotify. Embora algumas características, como "danceability" e "speechiness", pareçam ter impacto significativo, outras não demonstraram uma associação clara com o número de streams. Portanto, a influência das características musicais no sucesso das músicas em termos de streams no Spotify não pode ser generalizada, e a relação entre essas variáveis é mais complexa do que inicialmente previsto.
 </details>
 
+</details>
+
 <details>
 <summary><b> 💡 Recomendações  </b></summary>
 
@@ -335,13 +337,12 @@ Com base nas conclusões da análise exploratória dos dados e no objetivo de aj
 
 Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente em constante mudança da indústria musical, o novo artista terá uma melhor chance de alcançar o sucesso desejado.
 
+
 </details>
 
 <details>
 <summary><b> Links de interesse  </b></summary>
 
-Google Colab: https://colab.research.google.com/drive/1gpJLrMbSNPI_ocL7oP722QzGlZXBkRTt?authuser=1#scrollTo=Yr5zgaSCV9BU
-
-Obs: Para rodar o código é necessário incluir a tabela "dados_spotify_categorizados"
+Teste não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
 
 </details>
