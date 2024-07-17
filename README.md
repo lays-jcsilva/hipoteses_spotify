@@ -346,3 +346,7 @@ Ao implementar essas sugestões e permanecer flexível e adaptável ao ambiente 
 Teste não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses/Testes_nao_parametricos_Mann-Whitney.pdf
 
 </details>
+
+
+**Dashboard**
+![image](https://github.com/user-attachments/assets/d696638d-9530-4db7-a1ef-b543804f42a2)
