@@ -348,7 +348,7 @@ Teste não paramétrico: https://www.inf.ufsc.br/~vera.carmo/Testes_de_Hipoteses
 </details>
 
 
-**Dashboard**
+📊📈**Dashboard**
 
 
 
